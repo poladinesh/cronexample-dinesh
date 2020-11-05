@@ -1,7 +1,7 @@
 name: Azure Cleanup Script - Dinesh
 on:
   schedule:
-    - cron: "* * * * *"
+    - cron: '* * * * *'
 
 jobs:
   cron-task:
