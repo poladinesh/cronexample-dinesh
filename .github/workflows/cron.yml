@@ -1,5 +1,7 @@
 name: Azure Cleanup Script - Dinesh
 on:
+  push:
+    branches: main
   schedule:
     - cron: '* * * * *'
 
